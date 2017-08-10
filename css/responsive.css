@@ -1,0 +1,85 @@
+/*==================================================================
+[Responsive Stylesheet]
+
+Project:     
+Version:    1.0
+Last change:     
+Primary use:     
+==================================================================*/
+
+/*==================================================================
+					For Small Mobile Device
+==================================================================*/
+@media screen and (max-device-width: 320px) { 
+.container{
+	width: 95%;
+}
+
+}
+
+/*==================================================================
+					For Mid Mobile Device
+==================================================================*/
+@media screen and (max-device-width: 480px) {
+.container{
+	width: 92%;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.loginPageDetails {
+	width: 100%;
+	background: #151922;
+	padding: 50px 20px;
+	height: auto;
+}
+.loginPageDetails img {
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+.loginPageDetails ul {
+	display: none;
+}
+.loginPageForm button {
+	margin-top: 35px;
+}
+.loginPageForm {
+	width: 100%;
+	height: auto;
+	background: #00A875;
+	padding: 50px 20px;
+}
+.homePage .col-md-4 {
+    width: 100%;
+}
+figure.effect-layla {
+    margin-bottom: 10px;
+}
+.headerTopMenu {
+	width: 50%;
+}
+.headerToplogout {
+	width: 45%;
+}
+}
+/*==================================================================
+					For Tab Device
+==================================================================*/
+
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) { 
+.container{
+	width: 90%;
+}
+
+}
+/*==================================================================
+					For Extra Large Device
+==================================================================*/
+
+@media screen and (min-device-width: 1100px) { 
+
+}
